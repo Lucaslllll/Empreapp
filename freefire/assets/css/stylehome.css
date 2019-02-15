@@ -9,21 +9,31 @@ body{
 	background: white;
 	font-family: Coiny, Verdana, Helvetica, sans-serif;
 }
+
+.center-jumbo{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+	border-radius: 10px;
+}
+
 /*editando menu*/
-.navbar{
-	
+
+.cor-logo{
+	color: #ffa41a !important;
 }
 
 .bg-menu{
-	background: white;
+	background: black;
 }
 
 .nav-item .nav-link{
+	color: #ffa41a !important;
 	font-size: 1em;
 	text-transform: uppercase;
 }
 .nav-item .barra{
-	color: black !important;
+	color: white !important;
 }
 .navbar-brand{
 	font-size: 1.3em;

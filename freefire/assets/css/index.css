@@ -1,0 +1,15 @@
+.btn-outline-warning{
+	background: transparent;
+	color: #ffa41a;
+	border: 2px solid #ffa41a;
+	font-size: 1.4em;
+	font-family: Arial;
+}
+
+.btn-outline-warning:hover{
+	background: #ffa41a;
+	color: white;
+	border: 2px solid #ffa41a;
+	font-size: 1.4em;
+	font-family: Arial;
+}
