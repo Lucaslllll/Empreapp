@@ -1,13 +1,14 @@
-/*Importanções*/
- @import url('https://fonts.googleapis.com/css?family=Acme|Staatliches');
-
  /*Universal*/
 h2, h3{
-	font-family: 'Acme','Helvetica Neue',Arial,sans-serif;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 body{
-	background: white;
-	font-family: Coiny, Verdana, Helvetica, sans-serif;
+	background: url("http://freefiremobile-a.akamaihd.net/ffwebsite/images/hq.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+
 }
 
 .center-jumbo{
@@ -24,7 +25,7 @@ body{
 }
 
 .bg-menu{
-	background: black;
+	background: rgba(0, 0, 0, 0.8);
 }
 
 .nav-item .nav-link{
@@ -91,27 +92,29 @@ body{
 
 /*editando o conteduo*/
 .text-title{
-	color: black;
+	text-transform: uppercase;
+    word-break: break-word;
+	color: #222;
 	border-bottom: 1px solid black;
 }
 .camp-block{
-	border: 1px solid black;
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0%);
 }
 
 .link-camp{
-	border-bottom: 1px solid black;
+	word-break: break-word;
+	font-weight: bold;
 }
 
 .desc-camp{
 	font-size: 0.8em;
 	font-style: italic;
-	border-bottom: 1px solid black;
 }
 
 /*rodape*/
 #rodape{
+	background-color: #111;
 	border-top: 1px solid; 
 }
