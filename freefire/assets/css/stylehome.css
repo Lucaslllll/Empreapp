@@ -1,0 +1,107 @@
+/*Importanções*/
+ @import url('https://fonts.googleapis.com/css?family=Acme|Staatliches');
+
+ /*Universal*/
+h2, h3{
+	font-family: 'Acme','Helvetica Neue',Arial,sans-serif;
+}
+body{
+	background: white;
+	font-family: Coiny, Verdana, Helvetica, sans-serif;
+}
+/*editando menu*/
+.navbar{
+	
+}
+
+.bg-menu{
+	background: white;
+}
+
+.nav-item .nav-link{
+	font-size: 1em;
+	text-transform: uppercase;
+}
+.nav-item .barra{
+	color: black !important;
+}
+.navbar-brand{
+	font-size: 1.3em;
+}
+/*EDITANDO O PARALLAX*/
+#capa{
+	background: url("http://freefiremobile-a.akamaihd.net/ffwebsite/images/hq.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	min-height: 650px;
+}
+.slonga{
+	background: url(http://freefiremobile-a.akamaihd.net/ffwebsite/images/slogan2.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	height: 35vh;
+}
+.hr{
+	border: 2px solid white;
+	max-width: 45px;
+	border-radius: 100px;
+	margin: 15px auto;
+}
+.faixa-preta{
+
+	background: rgba(1, 1, 1, 0.4);
+	padding: 15px 0px 15px 0px;	
+}
+.title{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 4rem;
+	color: white;
+	text-shadow: 4px 1px 2px black;
+	font-weight: bolder;
+}
+
+.desc{
+	font-size: 1.15rem;
+	text-align: center;
+	color: white;
+	text-shadow: 1px 2px 1px black;
+}
+
+
+.center{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*editando o conteduo*/
+.text-title{
+	color: black;
+	border-bottom: 1px solid black;
+}
+.camp-block{
+	border: 1px solid black;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0%);
+}
+
+.link-camp{
+	border-bottom: 1px solid black;
+}
+
+.desc-camp{
+	font-size: 0.8em;
+	font-style: italic;
+	border-bottom: 1px solid black;
+}
+
+/*rodape*/
+#rodape{
+	border-top: 1px solid; 
+}

@@ -1,0 +1,9 @@
+/*editando inicio*/
+.fundo{
+	background: url(../img/free.png);
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 50vh;
+}
