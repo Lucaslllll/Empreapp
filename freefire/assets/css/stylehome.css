@@ -3,7 +3,7 @@ h2, h3{
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 body{
-	background: url("http://freefiremobile-a.akamaihd.net/ffwebsite/images/hq.jpg");
+	background: rgba(1, 1, 1, 0.8);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -52,7 +52,8 @@ body{
 .slonga{
 	background: url(http://freefiremobile-a.akamaihd.net/ffwebsite/images/slogan2.png);
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+	position: fixed;
+	background-attachment: scroll;
 	background-position: center;
 	height: 35vh;
 }
@@ -64,7 +65,7 @@ body{
 }
 .faixa-preta{
 
-	background: rgba(1, 1, 1, 0.4);
+	background: rgba(1, 1, 1, 0.6);
 	padding: 15px 0px 15px 0px;	
 }
 .title{
@@ -90,7 +91,12 @@ body{
 	justify-content: center;
 }
 
+/*editando background de campeonato*/
+.bg-conteudo{
+	background: rgba(1, 1, 1, 0.8);
+}
 /*editando o conteduo*/
+
 .text-title{
 	text-transform: uppercase;
     word-break: break-word;
@@ -113,8 +119,13 @@ body{
 	font-style: italic;
 }
 
+.rounde-botao{
+	border-radius: 0 !important;
+}
+
 /*rodape*/
 #rodape{
 	background-color: #111;
-	border-top: 1px solid; 
+	border-top: 1px solid;
+	color: white; 
 }
