@@ -3,7 +3,7 @@ h2, h3{
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
 body{
-	background: rgba(1, 1, 1, 0.8);
+	background:  url("http://freefiremobile-a.akamaihd.net/ffwebsite/images/hq.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -29,7 +29,7 @@ body{
 }
 
 .nav-item .nav-link{
-	color: #ffa41a !important;
+	color: rgba(255, 164, 27, 1) !important;
 	font-size: 1em;
 	text-transform: uppercase;
 }
@@ -96,7 +96,15 @@ body{
 	background: rgba(1, 1, 1, 0.8);
 }
 /*editando o conteduo*/
-
+.rounded-img{
+	border-radius: 20px 20px 0px 0px;
+}
+.bg-camp-cont{
+	border-radius: 20px !important;
+	background: rgba(1, 1, 1, 0.7);
+	color: white;
+	border: 1px groove white;
+}
 .text-title{
 	text-transform: uppercase;
     word-break: break-word;
