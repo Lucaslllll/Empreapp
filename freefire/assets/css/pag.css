@@ -4,6 +4,16 @@
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: cover;
+	background-size: cover;	
 	height: 50vh;
+}
+
+.title-pag{
+	color:  rgba(255, 164, 27, 1);
+	font-weight: bolder;
+	font-size: 1.8em
+}
+
+.bg-pag{
+	background-color: #0f0f17;
 }

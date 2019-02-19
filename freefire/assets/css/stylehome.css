@@ -25,7 +25,7 @@ body{
 }
 
 .bg-menu{
-	background: rgba(0, 0, 0, 0.8);
+	background: #1d1d27;
 }
 
 .nav-item .nav-link{
@@ -93,7 +93,7 @@ body{
 
 /*editando background de campeonato*/
 .bg-conteudo{
-	background: rgba(1, 1, 1, 0.8);
+	background: #0f0f17;
 }
 /*editando o conteduo*/
 .rounded-img{
@@ -103,7 +103,6 @@ body{
 	border-radius: 20px !important;
 	background: rgba(1, 1, 1, 0.7);
 	color: white;
-	border: 1px groove white;
 }
 .text-title{
 	text-transform: uppercase;
@@ -135,5 +134,5 @@ body{
 #rodape{
 	background-color: #111;
 	border-top: 1px solid;
-	color: white; 
+	color: white;
 }

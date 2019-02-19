@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/stylehome.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/pag.css" />
 </head>
-<body>
+<body >
 	<!-- Inicio do menu -->
 	<nav class="navbar color-menu navbar-expand-lg navbar-light bg-menu" id="mainNav">
 		<div class="container-fluid">
@@ -34,7 +34,7 @@
 						<a href="nav-link barra"><hr class="bg-dark"></a>
 					</li>
 				</ul>
-				<ul class="navbar-nav my-3 ml-4">
+				<ul class="navbar-nav my-2 ml-4">
 					<li class="nav-item">
 						<a class="nav-link font-weight-bolder" href="#login">Entrar</a>
 					</li>
@@ -50,49 +50,58 @@
 		</div>
 	</nav>
 	<!-- Fim do menu -->
-
-	<div id="conteudo">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-12">
-					<div class="fundo"></div>
-				</div>
-			</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 fundo w-100"></div>
 		</div>
-		<div class="container-fluid">
+	</div>
+	<div id="conteudo" class="bg-pag text-white">
+		
+		<div class="container-fluid border-white">
 			<div class="row">
-				<div class="col-8 border-right border-dark">
-					<h3 class="text-center mt-3 mb-2 border-bottom border-dark">REGRAS</h3>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-					<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+				<div class="col-12 col-lg-8 col-xl-8 col-sm-12 col-md-12 col-xs-12 border-right">
+					<h3 class="text-center mt-3 mb-2 pb-2 pt-1 border-bottom title-pag font-weight-bolder">SOBRE</h3>
+					<p class="text-center"><span class="font-weight-bolder">STATUS: </span><span class="pt-2 pb-2 pl-2 pr-2 bg-success rounded">ABERTO</span></p>
+					<p class="text-center"><span class="font-weight-bolder">PRÊMIO: </span><span class="pt-2 pb-2 pl-2 pr-2 bg-success rounded text-white">R$ 100,00</span></p>
+					
+					<p class="text-center "><span class="font-weight-bolder">INICIO DAS INSCRIÇÕES:</span> 01/03/2019
+					</p> 
+					<p class="text-center"><span class="font-weight-bolder">FIM DAS INSCRIÇÕES:</span> 14/03/2019 às 23:59 horas
+					</p> 
+					<p class="text-center"><span class="font-weight-bolder">DIA DO CAMPEONATO:</span> 16/03/2019 às 19:00 horas</p>
+					<p class="text-justify pl-2 pr-2"> O campeonato ocorrerá em apenas uma sala personalizada, onde a equipe/squad sobrevivente ganhará o prémio de R$ 100,00</p>
+
+					<h3 class="text-center mt-5 mb-2 pb-2 title-pag pt-1 border-bottom font-weight-bolder">REGRAS</h3>
+					<p class="text-justify"> Se um jogador ou equipe for descoberto agindo de má fé, incluindo, mas não limitado a manipulação de resultado do jogo, manipulação jogo para gerar uma vantagem com o uso de hack, o time pode perder o direito da premiação.</p>
+					<p class="text-justify">Não matar utilizando o lança granadas.</p>
+					<p class="text-justify">Não atropelar/matar com qualquer tipo de veículo.</p>
 				</div>
-				<div class="col-4">
-					<h3 class="mt-3 mb-2 border-bottom border-dark text-center">REALIZAR INSCRIÇÃO</h3>
+				<div class="col-12 col-lg-4 col-xl-4 col-sm-12 col-md-12 col-xs-12 bg-menu text-light">
+					<h3 class="mt-3 mb-2 pt-1 pb-2 border-bottom text-center text-success font-weight-bolder">REALIZAR INSCRIÇÃO</h3>
+					<p class="text-justify">Obrigatório -> <span class="text-danger">*</span></p>
 					<form class="text-center">
 						<div class="form-group">
-							<label for="inputEmail4">Nome completo do lider:</label>
+							<label for="inputEmail4">ID do lider no jogo:<span class="text-danger">*</span></label>
 							<input required type="text" class="form-control" id="inputEmail4" placeholder="Ex: Jeffesson Gomes de Almeida">
 						</div>
 						<div class="form-group">
-							<label for="inputEmail4">CPF do lider:</label>
+							<label for="inputEmail4">CPF do lider:<span class="text-danger">*</span></label>
 							<input required type="text" class="form-control" id="inputEmail4" placeholder="CPF">
 						</div>
 						<div class="form-group">
-							<label for="inputEmail4">Nome no jogo do lider:</label>
+							<label for="inputEmail4">Nickname no jogo do lider:<span class="text-danger">*</span></label>
 							<input required type="text" class="form-control" id="inputEmail4" placeholder="Ex: MrJeff31">
 						</div>
 						<div class="form-group">
-							<label for="inputEmail4">Whatsapp / Facebook / Instagram do lider:</label>
-							<input required type="text" class="form-control" id="inputEmail4" placeholder="Ex: MrJeff31">
+							<label for="inputEmail4">Whatsapp:</label>
+							<input type="text" class="form-control" id="inputEmail4" placeholder="Ex: MrJeff31">
 						</div>
 						<div class="form-group">
-							<label for="inputEmail4">Email do lider:</label>
-							<input required type="text" class="form-control" id="inputEmail4" placeholder="Ex: MrJeff31">
+							<label for="inputEmail4">Email do lider:<span class="text-danger">*</span></label>
+							<input required type="text" class="form-control" id="inputEmail4" placeholder="Ex: admin@TecHay.com">
 						</div>
 						<div class="form-group">
-							<label for="inputEmail4">PicPay</label>
+							<label for="inputEmail4">PicPay<span class="text-danger">*</span> - <a href="picpay.html" class="text-success">O que é o PicPay?</a></label>
 							<input required type="text" class="form-control" id="inputEmail4" placeholder="Ex: @techay.games">
 						</div>
 
